@@ -452,3 +452,25 @@ footer .sub-heading{
     display:grid;
     place-items: center;
 }
+.bottom-bar{
+    position: relative;
+    padding: 20px 0px;
+}
+.sp-nav{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-right: 70px;
+}
+.col-footer{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.scroll-top{
+    position: absolute;
+    background-color: #ffbd00;
+    padding: 10px;
+    bottom: 0px;
+    right: 10px;
+}
